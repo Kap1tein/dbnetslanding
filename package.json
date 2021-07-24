@@ -1,0 +1,16 @@
+{
+  "name": "dbnetslanding",
+  "version": "1.0.0",
+  "scripts": {
+    "build-css": "tailwindcss build -i css/main.css -o css/style.css",
+    "prod": "NODE_ENV=production postcss css/main.css -o public/style.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "tailwindcss": "2.2.6"
+  },
+  "devDependencies": {
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1"
+  }
+}
